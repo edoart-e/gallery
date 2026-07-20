@@ -6,8 +6,8 @@
 // Ricordati di mettere la virgola alla fine di ogni riga, tranne l'ultima.
 // ============================================
 var works = [
-  { file: "dino.jpeg", title: "Dino" },
-  { file: "elephant.jpeg", title: "Elephant" },
+  { file: "2607-Arcofoca-web.jpeg", title: "Arcofoca" },
+  { file: "2607-Erbofante-web.jpeg", title: "Erbofante" },
 ];
 
 // Genera automaticamente le card HTML a partire dalla lista "works"

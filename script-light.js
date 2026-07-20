@@ -56,7 +56,6 @@ renderWorks();
 document.getElementById('theme-toggle').addEventListener('click', toggleTheme);
 document.getElementById('works').addEventListener('click', function(event) { toggleLightroom(event); });
 
-var storedTheme = localStorage.getItem('dark-theme');
-if (storedTheme === null || JSON.parse(storedTheme)) {
+if (JSON.parse(localStorage.getItem('dark-theme'))) {
   document.body.classList.add('dark');
 }
